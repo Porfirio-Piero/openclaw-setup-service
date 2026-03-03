@@ -82,13 +82,38 @@ export interface Analytics {
 
 export interface User {
   id: string;
+  clerkId: string;
   email: string;
   name?: string;
   plan: 'free' | 'pro';
   stripeCustomerId?: string;
   stripeSubscriptionId?: string;
+  stripePriceId?: string;
+  stripeCurrentPeriodEnd?: string;
   waitlists: string[];
   maxWaitlists: number;
   maxSignupsPerWaitlist: number;
   createdAt: string;
+  updatedAt: string;
+}
+
+export interface Subscription {
+  id: string;
+  userId: string;
+  stripeCustomerId: string;
+  stripeSubscriptionId: string;
+  stripePriceId: string;
+  stripeCurrentPeriodEnd: string;
+  plan: 'free' | 'pro';
+  status: 'active' | 'canceled' | 'incomplete' | 'past_due' | 'unpaid';
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface ClerkUser {
+  id: string;
+  email: string;
+  firstName?: string;
+  lastName?: string;
+  imageUrl?: string;
 }

@@ -1,5 +1,5 @@
 import { put, list, del } from '@vercel/blob';
-import { Waitlist, Signup, User, Analytics } from '@/types';
+import { Waitlist, Signup, User, Analytics, ClerkUser } from '@/types';
 
 const WAITLIST_PREFIX = 'waitlists/';
 const SIGNUP_PREFIX = 'signups/';
@@ -68,6 +68,16 @@ export async function listWaitlists(userId: string): Promise<Waitlist[]> {
   } catch {
     return [];
   }
+}
+
+export async function countWaitlists(userId: string): Promise<number> {
+  const waitlists = await listWaitlists(userId);
+  return waitlists.length;
+}
+
+export async function countTotalSignups(userId: string): Promise<number> {
+  const waitlists = await listWaitlists(userId);
+  return waitlists.reduce((total, waitlist) => total + waitlist.signups.length, 0);
 }
 
 export async function addSignup(waitlistId: string, signup: Signup): Promise<void> {
@@ -175,7 +185,7 @@ export async function exportCSV(waitlistId: string): Promise<string> {
   return [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
 }
 
-// User management (simplified - in production use a proper auth system)
+// User management functions
 export async function getUser(id: string): Promise<User | null> {
   try {
     const key = `${USER_PREFIX}${id}.json`;
@@ -193,4 +203,72 @@ export async function saveUser(user: User): Promise<void> {
     access: 'public',
     contentType: 'application/json',
   });
+}
+
+export async function getUserByClerkId(clerkId: string): Promise<User | null> {
+  try {
+    // List all users and find by clerkId
+    const { blobs } = await list({ prefix: USER_PREFIX });
+    
+    for (const blob of blobs) {
+      const response = await fetch(blob.url);
+      if (response.ok) {
+        const user: User = await response.json();
+        if (user.clerkId === clerkId) {
+          return user;
+        }
+      }
+    }
+    return null;
+  } catch (error) {
+    console.error('Error getting user by clerkId:', error);
+    return null;
+  }
+}
+
+export async function createOrUpdateUserFromClerk(
+  clerkUser: ClerkUser,
+  existingUser?: User
+): Promise<User> {
+  const now = new Date().toISOString();
+  const name = [clerkUser.firstName, clerkUser.lastName].filter(Boolean).join(' ');
+  
+  const user: User = existingUser || {
+    id: `user_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+    clerkId: clerkUser.id,
+    email: clerkUser.email,
+    name: name || undefined,
+    plan: 'free',
+    waitlists: [],
+    maxWaitlists: 1,
+    maxSignupsPerWaitlist: 100,
+    createdAt: now,
+    updatedAt: now,
+  };
+
+  // Update fields from Clerk
+  user.clerkId = clerkUser.id;
+  user.email = clerkUser.email;
+  if (name) user.name = name;
+  user.updatedAt = now;
+
+  // If existingUser was passed with additional fields, merge them
+  if (existingUser) {
+    Object.assign(user, existingUser);
+  }
+
+  await saveUser(user);
+  return user;
+}
+
+export async function updateUserSubscription(
+  clerkId: string,
+  updates: Partial<Pick<User, 'plan' | 'stripeCustomerId' | 'stripeSubscriptionId' | 'stripePriceId' | 'stripeCurrentPeriodEnd' | 'maxWaitlists' | 'maxSignupsPerWaitlist'>>
+): Promise<User | null> {
+  const user = await getUserByClerkId(clerkId);
+  if (!user) return null;
+
+  Object.assign(user, updates, { updatedAt: new Date().toISOString() });
+  await saveUser(user);
+  return user;
 }
