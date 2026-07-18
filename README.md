@@ -1,4 +1,4 @@
-# OpenClaw Setup Service — Gumroad + Pinterest Pack
+# OpenClaw Setup Service - Gumroad + Pinterest Pack
 
 Everything needed to launch the OpenClaw Setup Service on Gumroad and Pinterest.
 
@@ -8,9 +8,8 @@ Everything needed to launch the OpenClaw Setup Service on Gumroad and Pinterest.
 
 - ✅ Landing page live: https://porfirio-piero.github.io/openclaw-setup-service/
 - ✅ Pinterest pin live: https://www.pinterest.com/pin/725712927501068301
-- 🟡 Gumroad product created, slug set (`openclaw-setup`), but **not yet published**: https://porfirio35.gumroad.com/l/openclaw-setup
-  - Final step: log into https://app.gumroad.com/products and click **Publish** on "OpenClaw Setup Service..."
-
+- ✅ Gumroad product **LIVE**: https://porfirio35.gumroad.com/l/openclaw-setup
+  - Published, $50, custom slug, cover image, deliverable file attached, checkout active.
 ---
 
 ---
@@ -30,7 +29,7 @@ Everything needed to launch the OpenClaw Setup Service on Gumroad and Pinterest.
 
 ## Quick Start
 
-1. Open `GUMROAD-LISTING.md` and finish the product at https://app.gumroad.com/products  
+1. Open `GUMROAD-LISTING.md` and finish the product at https://app.gumroad.com/products
    (product already exists; set permalink to `openclaw-setup`, upload `hero.png`, and publish).
 2. Upload `hero.png` as the cover image.
 3. Set price to $50.

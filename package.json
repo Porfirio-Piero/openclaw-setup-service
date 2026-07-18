@@ -1,0 +1,24 @@
+{
+  "name": "openclaw-gumroad-landing",
+  "version": "1.0.0",
+  "description": "Everything needed to launch the OpenClaw Setup Service on Gumroad and Pinterest.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Porfirio-Piero/openclaw-setup-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Porfirio-Piero/openclaw-setup-service/issues"
+  },
+  "homepage": "https://github.com/Porfirio-Piero/openclaw-setup-service#readme",
+  "dependencies": {
+    "puppeteer-core": "^25.3.0"
+  }
+}

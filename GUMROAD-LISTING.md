@@ -2,9 +2,15 @@
 
 ## Status
 
-Product created via Gumroad API on 2026-07-18. Custom permalink `openclaw-setup` is set. Short URL is `https://porfirio35.gumroad.com/l/openclaw-setup`. The product is currently **unpublished** because the API token does not allow publishing via API. Final publish must be done in Gumroad UI.
+✅ **LIVE** — Product published on 2026-07-18 via browser automation.
+- URL: https://porfirio35.gumroad.com/l/openclaw-setup
+- Price: $50
+- Custom slug: `openclaw-setup`
+- Cover image: uploaded
+- Deliverable file: attached (`openclaw-setup-deliverable.txt`)
+- Status: Published and accepting purchases
 
-## Live Product URL (custom slug set)
+## Live Product URL
 
 `https://porfirio35.gumroad.com/l/openclaw-setup`
 
