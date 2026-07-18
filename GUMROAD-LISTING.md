@@ -1,6 +1,26 @@
 # Gumroad Product Listing — OpenClaw Setup Service
 
-Paste these fields directly into Gumroad when creating the product.
+## Status
+
+Product created via Gumroad API on 2026-07-18. Currently unpublished and using auto-generated short URL `https://porfirio35.gumroad.com/l/brhxm`. The API token did not allow updating/publishing via API, so the final publish step and custom slug must be completed manually in Gumroad or with browser login.
+
+## Live Product URL (current)
+
+`https://porfirio35.gumroad.com/l/brhxm`
+
+## Target Custom URL
+
+`https://porfirio35.gumroad.com/l/openclaw-setup` — set this in Gumroad product settings if desired.
+
+## How to finish in Gumroad
+
+1. Go to https://app.gumroad.com/products
+2. Find "OpenClaw Setup Service - Your AI Crew, Live in 15 Minutes"
+3. Set permalink to `openclaw-setup`
+4. Upload `hero.png` as cover image
+5. Click **Publish**
+
+---
 
 ---
 

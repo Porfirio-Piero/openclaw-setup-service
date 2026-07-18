@@ -4,6 +4,17 @@ Everything needed to launch the OpenClaw Setup Service on Gumroad and Pinterest.
 
 ---
 
+## Status
+
+- ✅ Landing page live: https://porfirio-piero.github.io/openclaw-setup-service/
+- ✅ Pinterest pin live: https://www.pinterest.com/pin/725712927501068301
+- 🟡 Gumroad product created but unpublished: https://porfirio35.gumroad.com/l/brhxm
+  - Final publish + custom slug (`openclaw-setup`) must be done in Gumroad UI or with a browser session.
+
+---
+
+---
+
 ## Files
 
 | File | Purpose |
@@ -19,7 +30,8 @@ Everything needed to launch the OpenClaw Setup Service on Gumroad and Pinterest.
 
 ## Quick Start
 
-1. Open `GUMROAD-LISTING.md` and create the product at https://gumroad.com/
+1. Open `GUMROAD-LISTING.md` and finish the product at https://app.gumroad.com/products  
+   (product already exists; set permalink to `openclaw-setup`, upload `hero.png`, and publish).
 2. Upload `hero.png` as the cover image.
 3. Set price to $50.
 4. Publish the product.
