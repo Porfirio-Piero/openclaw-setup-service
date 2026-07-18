@@ -2,15 +2,11 @@
 
 ## Status
 
-Product created via Gumroad API on 2026-07-18. Currently unpublished and using auto-generated short URL `https://porfirio35.gumroad.com/l/brhxm`. The API token did not allow updating/publishing via API, so the final publish step and custom slug must be completed manually in Gumroad or with browser login.
+Product created via Gumroad API on 2026-07-18. Custom permalink `openclaw-setup` is set. Short URL is `https://porfirio35.gumroad.com/l/openclaw-setup`. The product is currently **unpublished** because the API token does not allow publishing via API. Final publish must be done in Gumroad UI.
 
-## Live Product URL (current)
+## Live Product URL (custom slug set)
 
-`https://porfirio35.gumroad.com/l/brhxm`
-
-## Target Custom URL
-
-`https://porfirio35.gumroad.com/l/openclaw-setup` — set this in Gumroad product settings if desired.
+`https://porfirio35.gumroad.com/l/openclaw-setup`
 
 ## How to finish in Gumroad
 
