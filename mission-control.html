@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OpenClaw Mission Control — Enterprise AI Crew Setup</title>
+  <meta name="description" content="Dark, immersive sales page for the OpenClaw Setup Service. Deploy your AI crew in 15 minutes." />
+  <meta property="og:title" content="OpenClaw Mission Control — Enterprise AI Crew Setup" />
+  <meta property="og:description" content="Deploy your AI crew in 15 minutes. Done-for-you OpenClaw setup." />
+  <meta property="og:image" content="https://porfirio-piero.github.io/openclaw-setup-service/pinterest-pin-1.png" />
+  <meta property="og:url" content="https://porfirio-piero.github.io/openclaw-setup-service/mission-control.html" />
+  <meta property="og:type" content="product" />
+  <meta name="pinterest:image" content="https://porfirio-piero.github.io/openclaw-setup-service/pinterest-pin-1.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://gumroad.com/js/gumroad.js"></script>
+  <style>
+    :root {
+      --bg: #05050a;
+      --surface: #0e0e18;
+      --surface-2: #16162a;
+      --text: #f0f0ff;
+      --muted: #8b8bb0;
+      --accent: #00f0ff;
+      --accent-2: #7c3aed;
+      --danger: #ff3860;
+      --radius: 16px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+    .nav {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 20px 0; border-bottom: 1px solid var(--surface-2);
+    }
+    .logo { font-weight: 900; font-size: 1.3rem; letter-spacing: -0.5px; }
+    .logo span { color: var(--accent); }
+    .nav-links { display: flex; gap: 22px; align-items: center; font-size: .9rem; color: var(--muted); }
+    .nav-links a { color: var(--muted); text-decoration: none; }
+    .nav-links a:hover { color: var(--text); }
+    .cta {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 12px 24px; border-radius: var(--radius);
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #000; text-decoration: none; font-weight: 800; font-size: .95rem;
+      box-shadow: 0 0 30px rgba(0,240,255,.25);
+      transition: transform .15s, box-shadow .15s;
+    }
+    .cta:hover { transform: translateY(-2px); box-shadow: 0 0 50px rgba(0,240,255,.4); }
+    .hero { padding: 100px 0 60px; text-align: center; position: relative; overflow: hidden; }
+    .hero::before {
+      content: ''; position: absolute; top: -40%; left: -20%; width: 140%; height: 120%;
+      background: radial-gradient(circle at 50% 30%, rgba(0,240,255,.08), transparent 50%),
+                  radial-gradient(circle at 80% 20%, rgba(124,58,237,.12), transparent 40%);
+      z-index: -1;
+    }
+    .badge {
+      display: inline-block; padding: 6px 14px; border-radius: 999px;
+      background: var(--surface-2); color: var(--accent); font-size: .8rem; font-weight: 700;
+      letter-spacing: .05em; margin-bottom: 24px; text-transform: uppercase;
+    }
+    h1 { font-size: 3.6rem; font-weight: 900; line-height: 1.05; margin: 0 0 22px; letter-spacing: -1.5px; }
+    .subtitle { font-size: 1.25rem; color: var(--muted); max-width: 700px; margin: 0 auto 34px; }
+    .price { color: var(--accent); font-size: 1.6rem; font-weight: 800; margin: 18px 0; }
+    .dashboard {
+      margin: 60px auto 0; max-width: 960px; border-radius: var(--radius);
+      border: 1px solid var(--surface-2); background: var(--surface);
+      overflow: hidden; box-shadow: 0 40px 100px rgba(0,0,0,.7);
+    }
+    .dash-top {
+      display: flex; justify-content: space-between; align-items: center; padding: 16px 24px;
+      border-bottom: 1px solid var(--surface-2); background: #080812;
+    }
+    .dots { display: flex; gap: 8px; }
+    .dot { width: 12px; height: 12px; border-radius: 50%; background: #ff5f56; }
+    .dot:nth-child(2) { background: #ffbd2e; }
+    .dot:nth-child(3) { background: #27c93f; }
+    .dash-body { display: grid; grid-template-columns: 220px 1fr; min-height: 460px; }
+    .dash-sidebar { border-right: 1px solid var(--surface-2); padding: 24px; }
+    .sidebar-item { display: flex; align-items: center; gap: 10px; padding: 12px; border-radius: 10px; color: var(--muted); font-size: .9rem; }
+    .sidebar-item.active { background: var(--surface-2); color: var(--text); }
+    .dash-main { padding: 28px; }
+    .stats { display: grid; grid-template-columns: repeat(4,1fr); gap: 16px; margin-bottom: 24px; }
+    .stat { background: #080812; border: 1px solid var(--surface-2); border-radius: 12px; padding: 16px; }
+    .stat-label { font-size: .75rem; color: var(--muted); text-transform: uppercase; }
+    .stat-val { font-size: 1.5rem; font-weight: 800; margin-top: 6px; }
+    .panel { background: #080812; border: 1px solid var(--surface-2); border-radius: 12px; padding: 18px; }
+    .panel h4 { margin: 0 0 12px; font-size: .85rem; text-transform: uppercase; color: var(--muted); letter-spacing: .05em; }
+    .log-row { display: flex; justify-content: space-between; font-size: .85rem; color: var(--muted); padding: 6px 0; border-bottom: 1px solid var(--surface-2); }
+    .log-row:last-child { border-bottom: none; }
+    .log-row .ok { color: var(--accent); }
+    section { padding: 90px 0; }
+    .section-title { font-size: 2.2rem; font-weight: 800; text-align: center; margin-bottom: 14px; }
+    .section-subtitle { text-align: center; color: var(--muted); max-width: 620px; margin: 0 auto 48px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px,1fr)); gap: 24px; }
+    .card {
+      background: var(--surface); border: 1px solid var(--surface-2); border-radius: var(--radius); padding: 32px;
+      transition: transform .15s, border-color .15s;
+    }
+    .card:hover { transform: translateY(-4px); border-color: var(--accent); }
+    .card h3 { margin: 0 0 12px; font-size: 1.15rem; font-weight: 700; }
+    .card p { margin: 0; color: var(--muted); font-size: .95rem; }
+    .icon { font-size: 2rem; margin-bottom: 16px; }
+    .workforce { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap: 18px; }
+    .role {
+      background: var(--surface); border: 1px solid var(--surface-2); border-radius: 12px; padding: 20px; text-align: center;
+    }
+    .role-title { font-weight: 700; font-size: .9rem; color: var(--accent); margin-bottom: 6px; }
+    .role-name { font-size: 1.05rem; font-weight: 600; }
+    .included { background: var(--surface); border-radius: var(--radius); padding: 40px; border: 1px solid var(--surface-2); }
+    .included ul { list-style: none; padding: 0; margin: 0; }
+    .included li { display: flex; align-items: flex-start; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--surface-2); color: var(--muted); }
+    .included li:last-child { border-bottom: none; }
+    .check { color: var(--accent); font-weight: 800; flex-shrink: 0; }
+    footer { padding: 50px 0; text-align: center; color: var(--muted); border-top: 1px solid var(--surface-2); }
+    @media (max-width: 760px) {
+      h1 { font-size: 2.2rem; }
+      .dash-body { grid-template-columns: 1fr; }
+      .dash-sidebar { display: none; }
+      .stats { grid-template-columns: repeat(2,1fr); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <div class="logo">OpenClaw<span>//</span>Mission Control</div>
+      <div class="nav-links">
+        <a href="index.html">Editorial</a>
+        <a href="minimal.html">Minimal</a>
+        <a class="cta" style="padding:10px 20px; font-size:.85rem;" href="https://porfirio35.gumroad.com/l/openclaw-setup" data-gumroad-single-product="true">Buy — $50</a>
+      </div>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div class="container">
+      <div class="badge">Mission-critical AI operations</div>
+      <h1>Your AI crew. Live. Armed. Mission-ready.</h1>
+      <p class="subtitle">
+        Stop losing hours to config drift, broken model routes, and scattered skills. We deploy your OpenClaw command center in one focused session.
+      </p>
+      <a class="cta" href="https://porfirio35.gumroad.com/l/openclaw-setup" data-gumroad-single-product="true">
+        Deploy OpenClaw Mission Control — $50
+      </a>
+      <p class="price">One-time · 15-minute setup · No subscription</p>
+
+      <div class="dashboard">
+        <div class="dash-top">
+          <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+          <div style="color:var(--muted); font-size:.85rem;">Consiglio — OpenClaw Command Center</div>
+          <div style="color:var(--accent); font-size:.85rem; font-weight:700;">LIVE</div>
+        </div>
+        <div class="dash-body">
+          <div class="dash-sidebar">
+            <div class="sidebar-item active">🤖 Agent Fleet</div>
+            <div class="sidebar-item">📚 Skills Library</div>
+            <div class="sidebar-item">🧠 Memory</div>
+            <div class="sidebar-item">🔒 Security</div>
+            <div class="sidebar-item">⚡ Automations</div>
+            <div class="sidebar-item">📈 Analytics</div>
+          </div>
+          <div class="dash-main">
+            <div class="stats">
+              <div class="stat"><div class="stat-label">Agents</div><div class="stat-val">6</div></div>
+              <div class="stat"><div class="stat-label">Skills</div><div class="stat-val">59</div></div>
+              <div class="stat"><div class="stat-label">Models</div><div class="stat-val">5+</div></div>
+              <div class="stat"><div class="stat-label">Uptime</div><div class="stat-val">99.9%</div></div>
+            </div>
+            <div class="panel">
+              <h4>Recent system events</h4>
+              <div class="log-row"><span>BotFather orchestrator</span><span class="ok">● ONLINE</span></div>
+              <div class="log-row"><span>Dapper Dan builder</span><span class="ok">● ARMED</span></div>
+              <div class="log-row"><span>Breaking Ben QA</span><span class="ok">● STANDBY</span></div>
+              <div class="log-row"><span>Chief of Staff router</span><span class="ok">● ACTIVE</span></div>
+              <div class="log-row"><span>Security watchdog</span><span class="ok">● WATCHING</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Crew roster</h2>
+      <p class="section-subtitle">Title-based specialist agents, modeled and routed for real work.</p>
+      <div class="workforce">
+        <div class="role"><div class="role-title">Executive Orchestrator</div><div class="role-name">BotFather</div></div>
+        <div class="role"><div class="role-title">Sr. Developer Agent</div><div class="role-name">Dapper Dan</div></div>
+        <div class="role"><div class="role-title">QA & Security Agent</div><div class="role-name">Breaking Ben</div></div>
+        <div class="role"><div class="role-title">Architecture Agent</div><div class="role-name">Codex Developer</div></div>
+        <div class="role"><div class="role-title">Chief of Staff Agent</div><div class="role-name">Consigliere Chief</div></div>
+        <div class="role"><div class="role-title">Intelligence Scout</div><div class="role-name">Mikey Models</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background: var(--surface);">
+    <div class="container">
+      <h2 class="section-title">Systems deployed</h2>
+      <p class="section-subtitle">Everything your AI command center needs on day one.</p>
+      <div class="grid-3">
+        <div class="card"><div class="icon">🎯</div><h3>Agent Fleet</h3><p>Six specialist agents named, modeled, and routed to the right models.</p></div>
+        <div class="card"><div class="icon">📚</div><h3>Skills Library</h3><p>59 skills consolidated into one canonical, git-protected source of truth.</p></div>
+        <div class="card"><div class="icon">🧠</div><h3>Memory</h3><p>SOUL, IDENTITY, CURIOSITY, HEARTBEAT, and a concise SECOND_BRAIN.</p></div>
+        <div class="card"><div class="icon">🔒</div><h3>Security Watchdog</h3><p>Camera + motion tracker + hourly summaries configured and armed.</p></div>
+        <div class="card"><div class="icon">⚡</div><h3>Automations</h3><p>WhatsApp, Telegram, cron jobs, morning briefings, model validation.</p></div>
+        <div class="card"><div class="icon">📦</div><h3>Buyer Package</h3><p>Cleansed skills, agent templates, cron recipes, onboarding form, getting started packet.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="included">
+        <h2 class="section-title" style="margin-top:0;">Deployment manifest</h2>
+        <ul>
+          <li><span class="check">✓</span> Canonical skills + agents source-of-truth directories</li>
+          <li><span class="check">✓</span> Personality aliases locked across all identity files</li>
+          <li><span class="check">✓</span> Model routing mapped to the right agents</li>
+          <li><span class="check">✓</span> Short, date-indexed SECOND_BRAIN.md memory file</li>
+          <li><span class="check">✓</span> WhatsApp, Telegram, and security heartbeat configured</li>
+          <li><span class="check">✓</span> Git-backed so your config is protected and recoverable</li>
+          <li><span class="check">✓</span> Post-purchase ZIP with cleansed templates and onboarding form</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section style="text-align:center; padding: 80px 0 100px;">
+    <div class="container">
+      <h2 style="font-size:2.4rem; font-weight:900; margin-bottom:16px;">Ready to take command?</h2>
+      <p style="color:var(--muted); margin-bottom:30px;">Get your OpenClaw command center deployed.</p>
+      <a class="cta" href="https://porfirio35.gumroad.com/l/openclaw-setup" data-gumroad-single-product="true">Deploy Now — $50</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Built by Piero Porfirio · OpenClaw Setup Service · <a href="index.html" style="color:var(--accent)">Editorial</a> · <a href="minimal.html" style="color:var(--accent)">Minimal</a></p>
+    </div>
+  </footer>
+</body>
+</html>
