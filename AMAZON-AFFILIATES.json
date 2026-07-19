@@ -1,0 +1,135 @@
+{
+  "storeId": "porfirioinc-20",
+  "note": "Amazon affiliate links using Associates tag porfirioinc-20. Commission rates vary by category (1%–10%). High-ticket electronics, home office, and smart-home gear typically convert well.",
+  "categories": [
+    {
+      "name": "Creator Tech",
+      "description": "Webcams, microphones, and lighting for creators, remote workers, and AI agent setups.",
+      "products": [
+        {
+          "id": "obsbot-tiny-2-lite",
+          "title": "OBSBOT Tiny 2 Lite 4K PTZ Webcam",
+          "asin": "B0D83PY9J3",
+          "link": "https://www.amazon.com/dp/B0D83PY9J3?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl",
+          "priceRange": "$150–$200",
+          "commission": "~3%",
+          "useCases": ["AI-powered auto-framing for streams/meetings", "Security camera alternative with PTZ", "High-quality video for agent demos"],
+          "pinterestTitle": "AI Tracking 4K Webcam Every Creator Needs",
+          "pinterestDescription": "OBSBOT Tiny 2 Lite auto-tracks you, shoots 4K, and makes every call or stream look pro. #creator #webcam #wfh"
+        },
+        {
+          "id": "logitech-brio-4k",
+          "title": "Logitech Brio 4K Webcam",
+          "asin": "B09NBWWP79",
+          "link": "https://www.amazon.com/dp/B09NBWWP79?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl",
+          "priceRange": "$120–$160",
+          "commission": "~3%",
+          "useCases": ["Crisp 4K video calls", "Windows Hello face unlock", "Streaming and content creation"],
+          "pinterestTitle": "The 4K Webcam That Upgrades Every Call",
+          "pinterestDescription": "Logitech Brio 4K: pro-level color, noise-canceling mics, and instant Windows Hello. #webcam #homeoffice #tech"
+        },
+        {
+          "id": "wireless-lavalier-mic",
+          "title": "Wireless Lavalier Microphone for iPhone/Android",
+          "asin": "B0DHVV8Y9V",
+          "link": "https://www.amazon.com/dp/B0DHVV8Y9V?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl",
+          "priceRange": "$30–$50",
+          "commission": "~3–4%",
+          "useCases": ["Clean audio for TikTok/Reels/YouTube", "Interview recording", "AI voice agent tests"],
+          "pinterestTitle": "Wireless Mic for iPhone Content Creators",
+          "pinterestDescription": "Plug-and-play wireless lavalier mic with noise reduction. Perfect for creators, vloggers, and remote teams. #mic #contentcreator"
+        }
+      ]
+    },
+    {
+      "name": "Home Office & Productivity",
+      "description": "Standing desks, chairs, and ergonomic upgrades that make long AI build sessions productive.",
+      "products": [
+        {
+          "id": "veken-standing-desk",
+          "title": "Veken 55 Inch Large Electric Standing Desk",
+          "asin": "B0DWMNPW7D",
+          "link": "https://www.amazon.com/dp/B0DWMNPW7D?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl",
+          "priceRange": "$180–$250",
+          "commission": "~3%",
+          "useCases": ["Full-size dual-monitor setup", "Electric sit-to-stand", "Stable frame for heavy gear"],
+          "pinterestTitle": "Electric Standing Desk That Fits Everything",
+          "pinterestDescription": "55-inch electric standing desk: room for dual monitors, stable lift, and all-day comfort. #standingdesk #homeoffice"
+        },
+        {
+          "id": "flexispot-en1",
+          "title": "FLEXISPOT EN1 Electric Standing Desk",
+          "asin": "B08BHPMYGK",
+          "link": "https://www.amazon.com/dp/B08BHPMYGK?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl",
+          "priceRange": "$200–$280",
+          "commission": "~3%",
+          "useCases": ["Memory presets for sitting/standing", "176 lb capacity", "Quiet dual-motor lift"],
+          "pinterestTitle": "Quiet Dual-Motor Standing Desk",
+          "pinterestDescription": "FLEXISPOT EN1: 4 memory presets, 176 lb capacity, whisper-quiet motor. The home office upgrade that pays for itself. #wfh"
+        }
+      ]
+    },
+    {
+      "name": "Home Server & Automation",
+      "description": "Mini PCs, storage, and networking gear for running local agents, home labs, and automation.",
+      "products": [
+        {
+          "id": "beelink-mini-s12",
+          "title": "Beelink Mini S12 Mini PC",
+          "asin": "B0C339KVH9",
+          "link": "https://www.amazon.com/dp/B0C339KVH9?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl",
+          "priceRange": "$150–$220",
+          "commission": "~3%",
+          "useCases": ["Low-power 24/7 home server", "OpenClaw node / automation hub", "4K dual-display office PC"],
+          "pinterestTitle": "Tiny PC That Runs Your Home Automation 24/7",
+          "pinterestDescription": "Beelink Mini S12: low power, dual 4K, 2.5G LAN. The perfect silent home server or OpenClaw node. #minipc #homelab"
+        },
+        {
+          "id": "origimagic-minipc",
+          "title": "origimagic Mini PC Ryzen 5 (Dual LAN)",
+          "asin": "B0GYF1VZ25",
+          "link": "https://www.amazon.com/dp/B0GYF1VZ25?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl",
+          "priceRange": "$250–$350",
+          "commission": "~3%",
+          "useCases": ["Soft router / firewall / NAS", "Dual Gigabit Ethernet", "Ryzen performance for home lab"],
+          "pinterestTitle": "Dual-LAN Ryzen Mini PC for Home Labs",
+          "pinterestDescription": "origimagic Ryzen 5 Mini PC with dual LAN: build routers, NAS, firewalls, or edge AI nodes. #homelab #minipc"
+        }
+      ]
+    },
+    {
+      "name": "Smart Home & Security",
+      "description": "Smart plugs, cameras, sensors, and hubs that feed into automation and security agents.",
+      "products": [
+        {
+          "id": "smart-plug-4-pack",
+          "title": "Smart Plug 4-Pack (Wi-Fi, Voice Compatible)",
+          "asin": "B091FXLMS8",
+          "link": "https://www.amazon.com/dp/B091FXLMS8?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl",
+          "priceRange": "$20–$30",
+          "commission": "~3%",
+          "useCases": ["Automate lamps, fans, chargers", "Voice control with Alexa/Google", "Schedule devices for energy savings"],
+          "pinterestTitle": "Smart Plugs That Automate Any Device",
+          "pinterestDescription": "Turn dumb devices into smart ones. Schedule, voice-control, and automate anything plugged in. #smarthome #automation"
+        },
+        {
+          "id": "external-ssd-1tb",
+          "title": "SanDisk Extreme 1TB Portable SSD",
+          "asin": "B08GT31SKS",
+          "link": "https://www.amazon.com/dp/B08GT31SKS?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl",
+          "priceRange": "$80–$110",
+          "commission": "~3%",
+          "useCases": ["Fast external storage for camera archives", "Backup agent deliverables", "Rugged portable drive"],
+          "pinterestTitle": "1TB Rugged SSD for Creators & Agents",
+          "pinterestDescription": "SanDisk Extreme 1TB: fast, rugged, pocket-sized storage for video, backups, and AI project files. #ssd #backup"
+        }
+      ]
+    }
+  ],
+  "strategy": {
+    "postingCadence": "3–5 pins per product across 2 weeks",
+    "pinDesign": "1000x1500 portrait, bold product shot, short headline, price/CTA",
+    "boards": ["AI Tools", "Creator Gear", "Home Office", "Smart Home", "Automation", "OpenClaw Setup Service"],
+    "disclosure": "Affiliate link — I may earn a commission at no extra cost to you."
+  }
+}

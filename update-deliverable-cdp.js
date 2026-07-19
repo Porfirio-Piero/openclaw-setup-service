@@ -1,8 +1,8 @@
 const WebSocket = require('ws');
 const fs = require('fs');
 
-const PAGE_WS = 'ws://127.0.0.1:18800/devtools/page/F6B1C3A7345C3AC6EDE2EB7550DDCE5F';
-const DELIVERABLE = 'C:\\\\Users\\\\devpi\\\\AppData\\\\Local\\\\Temp\\\\openclaw\\\\uploads\\\\openclaw-setup-deliverable.txt';
+const PAGE_WS = 'ws://127.0.0.1:18800/devtools/page/B74CD70449FF1EA01B5C5F2299640F20';
+const DELIVERABLE = 'C:\\\\Users\\\\devpi\\\\.openclaw\\\\workspace\\\\openclaw-gumroad-landing\\\\openclaw-setup-buyer-pack.zip';
 
 function wait(ms) { return new Promise(r => setTimeout(r, ms)); }
 
