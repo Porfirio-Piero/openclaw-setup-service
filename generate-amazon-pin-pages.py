@@ -12,23 +12,49 @@ def slugify(title):
     s = re.sub(r'[-\s]+', '-', s)
     return s[:60]
 
+# Map product slug to image filename (dedicated or category fallback)
+DEDICATED = {
+    'obsbot-tiny-2-lite-4k-ptz-webcam': 'amazon-pin-obsbot.png',
+    'logitech-brio-4k-webcam': 'amazon-pin-brio.png',
+    'wireless-lavalier-microphone-for-iphoneandroid': 'amazon-pin-mic.png',
+    'veken-55-inch-large-electric-standing-desk': 'amazon-pin-standingdesk.png',
+    'flexispot-en1-electric-standing-desk': 'amazon-pin-standingdesk.png',
+    'beelink-mini-s12-mini-pc': 'amazon-pin-minipc.png',
+    'origimagic-mini-pc-ryzen-5-dual-lan': 'amazon-pin-minipc.png',
+    'smart-plug-4-pack-wi-fi-voice-compatible': 'amazon-pin-smartplug.png',
+    'sandisk-extreme-1tb-portable-ssd': 'amazon-pin-ssd.png',
+    'cosori-air-fryer': 'amazon-pin-airfryer.png',
+    'instant-pot-duo': 'amazon-pin-instantpot.png',
+    'oral-b-toothbrush': 'amazon-pin-toothbrush.png',
+    'dyson-vacuum': 'amazon-pin-vacuum.png',
+    'shark-vacuum': 'amazon-pin-vacuum.png',
+    'robot-vacuum': 'amazon-pin-vacuum.png',
+}
+
+CATEGORY_IMG = {
+    'Creator Tech': 'amazon-pin-obsbot.png',
+    'Home Office & Productivity': 'amazon-pin-standingdesk.png',
+    'Home Server & Automation': 'amazon-pin-minipc.png',
+    'Smart Home & Security': 'amazon-pin-smartplug.png',
+    'Home & Kitchen': 'amazon-pin-airfryer.png',
+    'Health & Personal Care': 'amazon-pin-health.png',
+    'Cleaning & Organization': 'amazon-pin-vacuum.png',
+    'Electronics & Accessories': 'amazon-pin-electronics.png',
+    'Baby & Pet Essentials': 'amazon-pin-babypet.png',
+    'Beauty & Personal Grooming': 'amazon-pin-beauty.png',
+    'Fitness & Outdoor': 'amazon-pin-fitness.png',
+}
+
+def image_for(product, category_name):
+    slug = slugify(product['title'])
+    if slug in DEDICATED:
+        return DEDICATED[slug]
+    return CATEGORY_IMG.get(category_name, 'pinterest-pin-1.png')
+
 def build_pin_page(product, cat_name):
     slug = slugify(product['title'])
-    img = f"amazon-pin-{slugify(product['title'].split()[0] + ' ' + product['title'].split()[1])}.png"
-    # Map slug to image names we already generated
-    name_map = {
-        'obsbot-tiny-2-lite-4k-ptz-webcam': 'amazon-pin-obsbot.png',
-        'logitech-brio-4k-webcam': 'amazon-pin-brio.png',
-        'wireless-lavalier-microphone-for-iphoneandroid': 'amazon-pin-mic.png',
-        'veken-55-inch-large-electric-standing-desk': 'amazon-pin-standingdesk.png',
-        'flexispot-en1-electric-standing-desk': 'amazon-pin-standingdesk.png',
-        'beelink-mini-s12-mini-pc': 'amazon-pin-minipc.png',
-        'origimagic-mini-pc-ryzen-5-dual-lan': 'amazon-pin-minipc.png',
-        'smart-plug-4-pack-wi-fi-voice-compatible': 'amazon-pin-smartplug.png',
-        'sandisk-extreme-1tb-portable-ssd': 'amazon-pin-ssd.png',
-    }
-    img = name_map.get(slug, 'pinterest-pin-1.png')
-    pin_url = f"https://porfirio-piero.github.io/openclaw-setup-service/pin-amazon-{slug}.html"
+    img = image_for(product, cat_name)
+    pin_url = f"https://porfirio-piero.github.io/openclaw-setup-service/amazon-pins/{slug}.html"
     og_image = f"https://porfirio-piero.github.io/openclaw-setup-service/{img}"
     escaped_desc = html.escape(product['pinterestDescription'])
     escaped_title = html.escape(product['pinterestTitle'])
@@ -83,19 +109,7 @@ for cat in data['categories']:
 items = []
 for p in all_products:
     slug = slugify(p['title'])
-    img = f"../amazon-pin-{slugify(p['title'].split()[0] + ' ' + p['title'].split()[1])}.png"
-    name_map = {
-        'obsbot-tiny-2-lite-4k-ptz-webcam': '../amazon-pin-obsbot.png',
-        'logitech-brio-4k-webcam': '../amazon-pin-brio.png',
-        'wireless-lavalier-microphone-for-iphoneandroid': '../amazon-pin-mic.png',
-        'veken-55-inch-large-electric-standing-desk': '../amazon-pin-standingdesk.png',
-        'flexispot-en1-electric-standing-desk': '../amazon-pin-standingdesk.png',
-        'beelink-mini-s12-mini-pc': '../amazon-pin-minipc.png',
-        'origimagic-mini-pc-ryzen-5-dual-lan': '../amazon-pin-minipc.png',
-        'smart-plug-4-pack-wi-fi-voice-compatible': '../amazon-pin-smartplug.png',
-        'sandisk-extreme-1tb-portable-ssd': '../amazon-pin-ssd.png',
-    }
-    img = name_map.get(slug, '../pinterest-pin-1.png')
+    img = f"../{image_for(p, p['_category'])}"
     items.append(f'''
     <div class="card">
       <img src="{img}" alt="{html.escape(p['title'])}">
@@ -112,7 +126,7 @@ index = f'''<!DOCTYPE html>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Amazon Affiliate Picks — OpenClaw Setup Service</title>
-  <meta name="description" content="Curated Amazon affiliate picks for creators, home offices, home labs, and smart homes.">
+  <meta name="description" content="Curated Amazon affiliate picks for everyday products, home, tech, beauty, fitness, pets, and more.">
   <style>
     body {{ margin: 0; background: #05050a; color: #f0f0ff; font-family: Inter, system-ui, sans-serif; }}
     .container {{ max-width: 1100px; margin: 0 auto; padding: 0 24px; }}
@@ -133,7 +147,7 @@ index = f'''<!DOCTYPE html>
   <header>
     <div class="container">
       <h1>Curated Amazon Affiliate Picks</h1>
-      <p class="lead">Creator tech, home office, home lab, and smart home gear I recommend.</p>
+      <p class="lead">Everyday products I recommend — tech, home, kitchen, health, beauty, fitness, pets, and more.</p>
     </div>
   </header>
   <div class="container">
