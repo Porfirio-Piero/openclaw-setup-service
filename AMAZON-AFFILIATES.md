@@ -2,7 +2,7 @@
 
 **Store ID:** `porfirioinc-20`  
 **Tag:** `porfirioinc-20`  
-**Strategy:** 3–5 pins per product across 2 weeks on Pinterest boards: AI Tools, Creator Gear, Home Office, Smart Home, Automation, OpenClaw Setup Service.  
+**Strategy:** 3–5 pins per product across 2 weeks on Pinterest boards: AI Tools, Creator Gear, Home Office, Smart Home, Automation, OpenClaw Setup Service, Creator Tech, Home Office & Productivity, Home Server & Automation, Smart Home & Security, Home & Kitchen, Health & Personal Care, Cleaning & Organization, Electronics & Accessories, Baby & Pet Essentials, Beauty & Personal Grooming, Fitness & Outdoor, Automotive, Sleep & Bedding.  
 **Disclosure:** Affiliate link — I may earn a commission at no extra cost to you.
 
 ---
@@ -263,6 +263,14 @@ High-volume tech accessories people replace, upgrade, and gift year-round.
 - **Pinterest title:** Turn Any TV Into a Smart Streaming Hub
 - **Pinterest description:** Fire TV Stick 4K: stream everything in 4K with Alexa voice remote. #streaming #tv
 
+### Garmin Forerunner 165, Running Smartwatch, Colorful AMOLED Display, Training Metrics and Recovery Insights, Black | Built-in
+- **ASIN:** B0CT3SGHXL
+- **Affiliate link:** https://www.amazon.com/dp/B0CT3SGHXL?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl
+- **Price range:** $150–$400 · **Commission:** ~3%
+- **Use cases:** Fitness tracking, Notifications on wrist, Health monitoring
+- **Pinterest title:** Smartwatch That Tracks Everything You Need
+- **Pinterest description:** Garmin Forerunner 165, Running Smartwatch, Colorful AMOLED Display, Training Metrics and Recovery Insights, Black | Built-in: fitness, sleep, and notifications on your wrist. #smartwatch #fitness
+
 ## Baby & Pet Essentials
 
 Recurring-buy categories: diapers, pet food, wipes, training pads, and cleanup.
@@ -298,6 +306,14 @@ Recurring-buy categories: diapers, pet food, wipes, training pads, and cleanup.
 - **Use cases:** Remove fur from furniture, Reusable lint roller, No sticky sheets
 - **Pinterest title:** Reusable Pet Hair Remover for Furniture
 - **Pinterest description:** ChomChom Roller: picks up pet hair from couches, beds, clothes—no refills needed. #pets #cleaning
+
+### Lansinoh Stay Dry Disposable Nursing Pads, Soft and Super Absorbent Breast Pads, Breastfeeding Essentials for Moms, 100 Count
+- **ASIN:** B0070SKP1O
+- **Affiliate link:** https://www.amazon.com/dp/B0070SKP1O?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl
+- **Price range:** $30–$100 · **Commission:** ~1–3%
+- **Use cases:** Everyday convenience, Top-rated by buyers, Worth the upgrade
+- **Pinterest title:** Top-Rated Amazon Pick Worth Buying
+- **Pinterest description:** Lansinoh Stay Dry Disposable Nursing Pads, Soft and Super Absorbent Breast Pads, Breastfeeding Essentials for Moms, 100 Count: highly rated and practical for everyday use. #amazonfinds
 
 ## Beauty & Personal Grooming
 
@@ -370,3 +386,35 @@ Everyday fitness gear and outdoor tools with repeat purchase and seasonal demand
 - **Use cases:** Grilling season essential, BBQ parties, Complete tool set
 - **Pinterest title:** Grill Tool Set for BBQ Season
 - **Pinterest description:** Cuisinart 20-piece grill set: spatulas, tongs, brushes—everything for summer BBQ. #grilling #summer
+
+## Automotive
+
+Curated Automotive picks.
+
+### Anker 24W Dual USB Car Charger
+- **ASIN:** B07ZPRWX3G
+- **Affiliate link:** https://www.amazon.com/dp/B07ZPRWX3G?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl
+- **Price range:** $12–$18 · **Commission:** ~3%
+- **Use cases:** Road trip essential, Keep car clean, Fast device charging
+- **Pinterest title:** Car Accessory Every Driver Needs
+- **Pinterest description:** Anker 24W Dual USB Car Charger: keeps your ride clean and devices powered. #car #travel
+
+## Sleep & Bedding
+
+Curated Sleep & Bedding picks.
+
+### Mellanni Queen Sheet Set
+- **ASIN:** B07KJ7B9RH
+- **Affiliate link:** https://www.amazon.com/dp/B07KJ7B9RH?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl
+- **Price range:** $30–$50 · **Commission:** ~3%
+- **Use cases:** Better sleep, Guest room refresh, Soft, breathable fabric
+- **Pinterest title:** Bedding Upgrade for Better Sleep
+- **Pinterest description:** Mellanni Queen Sheet Set: soft, breathable, and guest-room ready. #bedding #sleep
+
+### Linenspa 3 Inch Memory Foam Mattress Topper
+- **ASIN:** B07VYW8DMZ
+- **Affiliate link:** https://www.amazon.com/dp/B07VYW8DMZ?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl
+- **Price range:** $50–$90 · **Commission:** ~3%
+- **Use cases:** Better sleep, Guest room refresh, Soft, breathable fabric
+- **Pinterest title:** Bedding Upgrade for Better Sleep
+- **Pinterest description:** Linenspa 3 Inch Memory Foam Mattress Topper: soft, breathable, and guest-room ready. #bedding #sleep
