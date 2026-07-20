@@ -467,6 +467,22 @@
           "pinterestTitle": "Turn Any TV Into a Smart Streaming Hub",
           "pinterestDescription": "Fire TV Stick 4K: stream everything in 4K with Alexa voice remote. #streaming #tv",
           "link": "https://www.amazon.com/dp/B08XVYZ1YJ?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "garmin-forerunner-165-running-smartwatch-colorful-amoled-dis",
+          "title": "Garmin Forerunner 165, Running Smartwatch, Colorful AMOLED Display, Training Metrics and Recovery Insights, Black | Built-in",
+          "asin": "B0CT3SGHXL",
+          "category": "Electronics & Accessories",
+          "priceRange": "$150–$400",
+          "commission": "~3%",
+          "useCases": [
+            "Fitness tracking",
+            "Notifications on wrist",
+            "Health monitoring"
+          ],
+          "pinterestTitle": "Smartwatch That Tracks Everything You Need",
+          "pinterestDescription": "Garmin Forerunner 165, Running Smartwatch, Colorful AMOLED Display, Training Metrics and Recovery Insights, Black | Built-in: fitness, sleep, and notifications on your wrist. #smartwatch #fitness",
+          "link": "https://www.amazon.com/dp/B0CT3SGHXL?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
         }
       ]
     },
@@ -533,6 +549,22 @@
           "pinterestTitle": "Reusable Pet Hair Remover for Furniture",
           "pinterestDescription": "ChomChom Roller: picks up pet hair from couches, beds, clothes—no refills needed. #pets #cleaning",
           "link": "https://www.amazon.com/dp/B00BAGTNAQ?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "lansinoh-stay-dry-disposable-nursing-pads-soft-and-super-abs",
+          "title": "Lansinoh Stay Dry Disposable Nursing Pads, Soft and Super Absorbent Breast Pads, Breastfeeding Essentials for Moms, 100 Count",
+          "asin": "B0070SKP1O",
+          "category": "Baby & Pet Essentials",
+          "priceRange": "$30–$100",
+          "commission": "~1–3%",
+          "useCases": [
+            "Everyday convenience",
+            "Top-rated by buyers",
+            "Worth the upgrade"
+          ],
+          "pinterestTitle": "Top-Rated Amazon Pick Worth Buying",
+          "pinterestDescription": "Lansinoh Stay Dry Disposable Nursing Pads, Soft and Super Absorbent Breast Pads, Breastfeeding Essentials for Moms, 100 Count: highly rated and practical for everyday use. #amazonfinds",
+          "link": "https://www.amazon.com/dp/B0070SKP1O?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
         }
       ]
     },
@@ -667,6 +699,66 @@
           "link": "https://www.amazon.com/dp/B00004RDFP?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
         }
       ]
+    },
+    {
+      "name": "Automotive",
+      "description": "Curated Automotive picks.",
+      "products": [
+        {
+          "id": "anker-24w-dual-usb-car-charger",
+          "title": "Anker 24W Dual USB Car Charger",
+          "asin": "B07ZPRWX3G",
+          "category": "Automotive",
+          "priceRange": "$12–$18",
+          "commission": "~3%",
+          "useCases": [
+            "Road trip essential",
+            "Keep car clean",
+            "Fast device charging"
+          ],
+          "pinterestTitle": "Car Accessory Every Driver Needs",
+          "pinterestDescription": "Anker 24W Dual USB Car Charger: keeps your ride clean and devices powered. #car #travel",
+          "link": "https://www.amazon.com/dp/B07ZPRWX3G?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        }
+      ]
+    },
+    {
+      "name": "Sleep & Bedding",
+      "description": "Curated Sleep & Bedding picks.",
+      "products": [
+        {
+          "id": "mellanni-queen-sheet-set",
+          "title": "Mellanni Queen Sheet Set",
+          "asin": "B07KJ7B9RH",
+          "category": "Sleep & Bedding",
+          "priceRange": "$30–$50",
+          "commission": "~3%",
+          "useCases": [
+            "Better sleep",
+            "Guest room refresh",
+            "Soft, breathable fabric"
+          ],
+          "pinterestTitle": "Bedding Upgrade for Better Sleep",
+          "pinterestDescription": "Mellanni Queen Sheet Set: soft, breathable, and guest-room ready. #bedding #sleep",
+          "link": "https://www.amazon.com/dp/B07KJ7B9RH?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "linenspa-3-inch-memory-foam-mattress-topper",
+          "title": "Linenspa 3 Inch Memory Foam Mattress Topper",
+          "asin": "B07VYW8DMZ",
+          "category": "Sleep & Bedding",
+          "priceRange": "$50–$90",
+          "commission": "~3%",
+          "useCases": [
+            "Better sleep",
+            "Guest room refresh",
+            "Soft, breathable fabric"
+          ],
+          "pinterestTitle": "Bedding Upgrade for Better Sleep",
+          "pinterestDescription": "Linenspa 3 Inch Memory Foam Mattress Topper: soft, breathable, and guest-room ready. #bedding #sleep",
+          "link": "https://www.amazon.com/dp/B07VYW8DMZ?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        }
+      ]
     }
   ],
   "strategy": {
@@ -678,7 +770,20 @@
       "Home Office",
       "Smart Home",
       "Automation",
-      "OpenClaw Setup Service"
+      "OpenClaw Setup Service",
+      "Creator Tech",
+      "Home Office & Productivity",
+      "Home Server & Automation",
+      "Smart Home & Security",
+      "Home & Kitchen",
+      "Health & Personal Care",
+      "Cleaning & Organization",
+      "Electronics & Accessories",
+      "Baby & Pet Essentials",
+      "Beauty & Personal Grooming",
+      "Fitness & Outdoor",
+      "Automotive",
+      "Sleep & Bedding"
     ],
     "disclosure": "Affiliate link — I may earn a commission at no extra cost to you."
   }
