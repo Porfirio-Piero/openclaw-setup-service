@@ -86,6 +86,22 @@
           ],
           "pinterestTitle": "Quiet Dual-Motor Standing Desk",
           "pinterestDescription": "FLEXISPOT EN1: 4 memory presets, 176 lb capacity, whisper-quiet motor. The home office upgrade that pays for itself. #wfh"
+        },
+        {
+          "id": "olixis-criss-cross-chairs-with-wheels-wide-seat-cross-legged",
+          "title": "OLIXIS Criss Cross Chairs with Wheels Wide Seat Cross Legged Office Desk Vanity Chair Comfy Fabric Armless Adjustable Swivel",
+          "asin": "B0FQP3NQDQ",
+          "category": "Home Office & Productivity",
+          "priceRange": "$80–$200",
+          "commission": "~3%",
+          "useCases": [
+            "All-day desk work",
+            "Adjustable lumbar support",
+            "Home office upgrade"
+          ],
+          "pinterestTitle": "Ergonomic Office Chair That Supports Long Workdays",
+          "pinterestDescription": "OLIXIS Criss Cross Chairs with Wheels Wide Seat Cross Legged Office Desk Vanity Chair Comfy Fabric Armless Adjustable Swivel: comfort, support, and adjustability for your home office. #homeoffice #ergonomic #wfh",
+          "link": "https://www.amazon.com/dp/B0FQP3NQDQ?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
         }
       ]
     },
@@ -239,6 +255,22 @@
           "pinterestTitle": "Single-Serve Coffee Maker for Busy Mornings",
           "pinterestDescription": "Keurig K-Classic: fast, simple, perfect cup every morning. #coffee #morning",
           "link": "https://www.amazon.com/dp/B071S96C3J?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "hamilton-beach-breakfast-sandwich-maker",
+          "title": "Hamilton Beach Breakfast Sandwich Maker",
+          "asin": "B07V3G1PY1",
+          "category": "Home & Kitchen",
+          "priceRange": "$25–$35",
+          "commission": "~3%",
+          "useCases": [
+            "Everyday convenience",
+            "Top-rated by buyers",
+            "Worth the upgrade"
+          ],
+          "pinterestTitle": "Top-Rated Amazon Pick Worth Buying",
+          "pinterestDescription": "Hamilton Beach Breakfast Sandwich Maker: highly rated and practical for everyday use. #amazonfinds",
+          "link": "https://www.amazon.com/dp/B07V3G1PY1?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
         }
       ]
     },
@@ -483,6 +515,86 @@
           "pinterestTitle": "Smartwatch That Tracks Everything You Need",
           "pinterestDescription": "Garmin Forerunner 165, Running Smartwatch, Colorful AMOLED Display, Training Metrics and Recovery Insights, Black | Built-in: fitness, sleep, and notifications on your wrist. #smartwatch #fitness",
           "link": "https://www.amazon.com/dp/B0CT3SGHXL?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "logitech-g502-hero-gaming-mouse",
+          "title": "Logitech G502 HERO Gaming Mouse",
+          "asin": "B07GBZ4Q68",
+          "category": "Electronics & Accessories",
+          "priceRange": "$40–$60",
+          "commission": "~3%",
+          "useCases": [
+            "Gaming and work setup",
+            "Precise control and comfort",
+            "RGB customization"
+          ],
+          "pinterestTitle": "Top-Rated Amazon Pick Worth Buying",
+          "pinterestDescription": "Logitech G502 HERO Gaming Mouse: highly rated and practical for everyday use. #amazonfinds",
+          "link": "https://www.amazon.com/dp/B07GBZ4Q68?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "geodmaer-65-gaming-keyboard-wired-backlit-mini-keyboard-ultr",
+          "title": "GEODMAER 65% Gaming Keyboard, Wired Backlit Mini Keyboard, Ultra-Compact Anti-Ghosting No-Conflict 68 Keys Membrane Gaming Wi",
+          "asin": "B0D3CZYCH2",
+          "category": "Electronics & Accessories",
+          "priceRange": "$30–$120",
+          "commission": "~3%",
+          "useCases": [
+            "Gaming and work setup",
+            "Precise control and comfort",
+            "RGB customization"
+          ],
+          "pinterestTitle": "Mechanical Keyboard Upgrade for Gaming & Work",
+          "pinterestDescription": "GEODMAER 65% Gaming Keyboard, Wired Backlit Mini Keyboard, Ultra-Compact Anti-Ghosting No-Conflict 68 Keys Membrane Gaming Wi: tactile keys, RGB, and wireless freedom. #gaming #keyboard #setup",
+          "link": "https://www.amazon.com/dp/B0D3CZYCH2?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "redragon-s101m-ks-gaming-keyboard-and-mouse-wireless-with-tr",
+          "title": "Redragon S101M-KS Gaming Keyboard and Mouse Wireless with Tri-Mode, RGB Keyboard and 4800 DPI Gaming Mouse, 10 Independent Mu",
+          "asin": "B0DXTV9BGJ",
+          "category": "Electronics & Accessories",
+          "priceRange": "$30–$120",
+          "commission": "~3%",
+          "useCases": [
+            "Gaming and work setup",
+            "Precise control and comfort",
+            "RGB customization"
+          ],
+          "pinterestTitle": "Mechanical Keyboard Upgrade for Gaming & Work",
+          "pinterestDescription": "Redragon S101M-KS Gaming Keyboard and Mouse Wireless with Tri-Mode, RGB Keyboard and 4800 DPI Gaming Mouse, 10 Independent Mu: tactile keys, RGB, and wireless freedom. #gaming #keyboard #setup",
+          "link": "https://www.amazon.com/dp/B0DXTV9BGJ?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "apple-watch-se-3-gps-40mm-smartwatch-with-starlight-aluminum",
+          "title": "Apple Watch SE 3 [GPS 40mm] Smartwatch with Starlight Aluminum Case with Starlight Sport Band - S/M. Fitness and Sleep Tracke",
+          "asin": "B0FQFNRH72",
+          "category": "Electronics & Accessories",
+          "priceRange": "$150–$400",
+          "commission": "~3%",
+          "useCases": [
+            "Fitness tracking",
+            "Notifications on wrist",
+            "Health monitoring"
+          ],
+          "pinterestTitle": "Smartwatch That Tracks Everything You Need",
+          "pinterestDescription": "Apple Watch SE 3 [GPS 40mm] Smartwatch with Starlight Aluminum Case with Starlight Sport Band - S/M. Fitness and Sleep Tracke: fitness, sleep, and notifications on your wrist. #smartwatch #fitness",
+          "link": "https://www.amazon.com/dp/B0FQFNRH72?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "amazfit-bip-6-smart-watch-46mm-14-day-battery-197-amoled-dis",
+          "title": "Amazfit Bip 6 Smart Watch 46mm, 14 Day Battery, 1.97\" AMOLED Display, GPS & Free Maps, AI, Bluetooth Call & Text, Health, Fit",
+          "asin": "B0DYJKTHYF",
+          "category": "Electronics & Accessories",
+          "priceRange": "$150–$400",
+          "commission": "~3%",
+          "useCases": [
+            "Fitness tracking",
+            "Notifications on wrist",
+            "Health monitoring"
+          ],
+          "pinterestTitle": "Smartwatch That Tracks Everything You Need",
+          "pinterestDescription": "Amazfit Bip 6 Smart Watch 46mm, 14 Day Battery, 1.97\" AMOLED Display, GPS & Free Maps, AI, Bluetooth Call & Text, Health, Fit: fitness, sleep, and notifications on your wrist. #smartwatch #fitness",
+          "link": "https://www.amazon.com/dp/B0DYJKTHYF?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
         }
       ]
     },
@@ -565,6 +677,22 @@
           "pinterestTitle": "Top-Rated Amazon Pick Worth Buying",
           "pinterestDescription": "Lansinoh Stay Dry Disposable Nursing Pads, Soft and Super Absorbent Breast Pads, Breastfeeding Essentials for Moms, 100 Count: highly rated and practical for everyday use. #amazonfinds",
           "link": "https://www.amazon.com/dp/B0070SKP1O?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "zak-designs-kelso-toddler-cups-for-travel-or-at-home-15oz-2-",
+          "title": "Zak Designs Kelso Toddler Cups For Travel or At Home, 15oz 2-Pack Durable Plastic Sippy Cups With Leak-Proof Design is Perfec",
+          "asin": "B0BTYQ7Q5Y",
+          "category": "Baby & Pet Essentials",
+          "priceRange": "$30–$100",
+          "commission": "~1–3%",
+          "useCases": [
+            "Everyday convenience",
+            "Top-rated by buyers",
+            "Worth the upgrade"
+          ],
+          "pinterestTitle": "Top-Rated Amazon Pick Worth Buying",
+          "pinterestDescription": "Zak Designs Kelso Toddler Cups For Travel or At Home, 15oz 2-Pack Durable Plastic Sippy Cups With Leak-Proof Design is Perfec: highly rated and practical for everyday use. #amazonfinds",
+          "link": "https://www.amazon.com/dp/B0BTYQ7Q5Y?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
         }
       ]
     },
@@ -631,6 +759,22 @@
           "pinterestTitle": "The Tweezer That Lasts for Years",
           "pinterestDescription": "Tweezerman slant tweezer: precision, durability, brow staple. #brows #beauty",
           "link": "https://www.amazon.com/dp/B000H88LHW?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "cerave-hydrating-facial-cleanser",
+          "title": "CeraVe Hydrating Facial Cleanser",
+          "asin": "B07S1XCK8R",
+          "category": "Beauty & Personal Grooming",
+          "priceRange": "$12–$18",
+          "commission": "~3%",
+          "useCases": [
+            "Everyday convenience",
+            "Top-rated by buyers",
+            "Worth the upgrade"
+          ],
+          "pinterestTitle": "Top-Rated Amazon Pick Worth Buying",
+          "pinterestDescription": "CeraVe Hydrating Facial Cleanser: highly rated and practical for everyday use. #amazonfinds",
+          "link": "https://www.amazon.com/dp/B07S1XCK8R?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
         }
       ]
     },
@@ -697,6 +841,22 @@
           "pinterestTitle": "Grill Tool Set for BBQ Season",
           "pinterestDescription": "Cuisinart 20-piece grill set: spatulas, tongs, brushes—everything for summer BBQ. #grilling #summer",
           "link": "https://www.amazon.com/dp/B00004RDFP?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "garmin-forerunner-55-gps-running-watch",
+          "title": "Garmin Forerunner 55 GPS Running Watch",
+          "asin": "B0B4MWLQ1K",
+          "category": "Fitness & Outdoor",
+          "priceRange": "$150–$200",
+          "commission": "~3%",
+          "useCases": [
+            "Fitness tracking",
+            "Notifications on wrist",
+            "Health monitoring"
+          ],
+          "pinterestTitle": "Smartwatch That Tracks Everything You Need",
+          "pinterestDescription": "Garmin Forerunner 55 GPS Running Watch: fitness, sleep, and notifications on your wrist. #smartwatch #fitness",
+          "link": "https://www.amazon.com/dp/B0B4MWLQ1K?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
         }
       ]
     },
@@ -719,6 +879,22 @@
           "pinterestTitle": "Car Accessory Every Driver Needs",
           "pinterestDescription": "Anker 24W Dual USB Car Charger: keeps your ride clean and devices powered. #car #travel",
           "link": "https://www.amazon.com/dp/B07ZPRWX3G?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "astroai-tire-inflator-portable-air-compressor",
+          "title": "AstroAI Tire Inflator Portable Air Compressor",
+          "asin": "B09C1X7T67",
+          "category": "Automotive",
+          "priceRange": "$30–$50",
+          "commission": "~3%",
+          "useCases": [
+            "Everyday convenience",
+            "Top-rated by buyers",
+            "Worth the upgrade"
+          ],
+          "pinterestTitle": "Top-Rated Amazon Pick Worth Buying",
+          "pinterestDescription": "AstroAI Tire Inflator Portable Air Compressor: highly rated and practical for everyday use. #amazonfinds",
+          "link": "https://www.amazon.com/dp/B09C1X7T67?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
         }
       ]
     },
@@ -759,6 +935,254 @@
           "link": "https://www.amazon.com/dp/B07VYW8DMZ?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
         }
       ]
+    },
+    {
+      "name": "Tools & Home Improvement",
+      "description": "Curated Tools & Home Improvement picks.",
+      "products": [
+        {
+          "id": "blackdecker-20v-max-drill-home-tool-kit",
+          "title": "BLACK+DECKER 20V MAX Drill Home Tool Kit",
+          "asin": "B078964JPV",
+          "category": "Tools & Home Improvement",
+          "priceRange": "$80–$120",
+          "commission": "~3%",
+          "useCases": [
+            "Home repairs",
+            "DIY projects",
+            "Reliable power"
+          ],
+          "pinterestTitle": "Power Tool That Handles Home Projects",
+          "pinterestDescription": "BLACK+DECKER 20V MAX Drill Home Tool Kit: reliable, versatile, and ready for DIY. #tools #homeimprovement",
+          "link": "https://www.amazon.com/dp/B078964JPV?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "kasa-outdoor-smart-plug",
+          "title": "Kasa Outdoor Smart Plug",
+          "asin": "B07WV2G23D",
+          "category": "Tools & Home Improvement",
+          "priceRange": "$15–$25",
+          "commission": "~3%",
+          "useCases": [
+            "Everyday convenience",
+            "Top-rated by buyers",
+            "Worth the upgrade"
+          ],
+          "pinterestTitle": "Top-Rated Amazon Pick Worth Buying",
+          "pinterestDescription": "Kasa Outdoor Smart Plug: highly rated and practical for everyday use. #amazonfinds",
+          "link": "https://www.amazon.com/dp/B07WV2G23D?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        }
+      ]
+    },
+    {
+      "name": "Everyday Carry & Safety",
+      "description": "Curated Everyday Carry & Safety picks.",
+      "products": [
+        {
+          "id": "sabre-pepper-spray-keychain",
+          "title": "SABRE Pepper Spray Keychain",
+          "asin": "B07TX9KPK5",
+          "category": "Everyday Carry & Safety",
+          "priceRange": "$8–$12",
+          "commission": "~3%",
+          "useCases": [
+            "Everyday convenience",
+            "Top-rated by buyers",
+            "Worth the upgrade"
+          ],
+          "pinterestTitle": "Top-Rated Amazon Pick Worth Buying",
+          "pinterestDescription": "SABRE Pepper Spray Keychain: highly rated and practical for everyday use. #amazonfinds",
+          "link": "https://www.amazon.com/dp/B07TX9KPK5?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "swiss-safe-2-in-1-first-aid-kit",
+          "title": "Swiss Safe 2-in-1 First Aid Kit",
+          "asin": "B089N3W1VG",
+          "category": "Everyday Carry & Safety",
+          "priceRange": "$25–$40",
+          "commission": "~3%",
+          "useCases": [
+            "Everyday convenience",
+            "Top-rated by buyers",
+            "Worth the upgrade"
+          ],
+          "pinterestTitle": "Top-Rated Amazon Pick Worth Buying",
+          "pinterestDescription": "Swiss Safe 2-in-1 First Aid Kit: highly rated and practical for everyday use. #amazonfinds",
+          "link": "https://www.amazon.com/dp/B089N3W1VG?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        }
+      ]
+    },
+    {
+      "name": "Outdoor, Patio & Garden",
+      "description": "Curated Outdoor, Patio & Garden picks.",
+      "products": [
+        {
+          "id": "kurrajong-farmhouse-artificial-plant-in-matte-white-ceramic-",
+          "title": "Kurrajong Farmhouse Artificial Plant in Matte White Ceramic Pot | 7.5\" Fake Plant for Desk Decor | Artificial Succulent in Po",
+          "asin": "B0GF1CDH94",
+          "category": "Outdoor, Patio & Garden",
+          "priceRange": "$20–$80",
+          "commission": "~3%",
+          "useCases": [
+            "No-maintenance decor",
+            "Outdoor curb appeal",
+            "Year-round greenery"
+          ],
+          "pinterestTitle": "No-Maintenance Greenery for Home or Patio",
+          "pinterestDescription": "Kurrajong Farmhouse Artificial Plant in Matte White Ceramic Pot | 7.5\" Fake Plant for Desk Decor | Artificial Succulent in Po: looks real, lasts forever, zero watering. #homedecor #patio",
+          "link": "https://www.amazon.com/dp/B0GF1CDH94?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "fire-beauty-fire-pit-for-outside-wood-burningbbq-grill-steel",
+          "title": "Fire Beauty Fire Pit for Outside Wood Burning,BBQ Grill Steel Fire Bowl with Spark Screen Cover,Log Grate,Poker for Camping B",
+          "asin": "B097KJ2TQ9",
+          "category": "Outdoor, Patio & Garden",
+          "priceRange": "$80–$300",
+          "commission": "~3%",
+          "useCases": [
+            "Backyard gatherings",
+            "Camping trips",
+            "Smokeless ambience"
+          ],
+          "pinterestTitle": "Backyard Fire Pit for Cozy Nights",
+          "pinterestDescription": "Fire Beauty Fire Pit for Outside Wood Burning,BBQ Grill Steel Fire Bowl with Spark Screen Cover,Log Grate,Poker for Camping B: smokeless flames and easy setup for patio or camping. #firepit #patio #outdoor",
+          "link": "https://www.amazon.com/dp/B097KJ2TQ9?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "outvue-36-inch-fire-pit-with-2-grills-wood-burning-fire-pits",
+          "title": "OutVue 36 Inch Fire Pit with 2 Grills, Wood Burning Fire Pits for Outside with Lid, Poker and Round Waterproof Cover, BBQ& Ou",
+          "asin": "B0C64VCSKN",
+          "category": "Outdoor, Patio & Garden",
+          "priceRange": "$80–$300",
+          "commission": "~3%",
+          "useCases": [
+            "Backyard gatherings",
+            "Camping trips",
+            "Smokeless ambience"
+          ],
+          "pinterestTitle": "Backyard Fire Pit for Cozy Nights",
+          "pinterestDescription": "OutVue 36 Inch Fire Pit with 2 Grills, Wood Burning Fire Pits for Outside with Lid, Poker and Round Waterproof Cover, BBQ& Ou: smokeless flames and easy setup for patio or camping. #firepit #patio #outdoor",
+          "link": "https://www.amazon.com/dp/B0C64VCSKN?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "magic-campfire-fire-color-changing-packets-for-fire-pit-10-p",
+          "title": "Magic Campfire Fire Color Changing Packets for Fire Pit (10 Pack) Outdoor Fireplaces & Bonfires, Rainbow Colored Flames - Per",
+          "asin": "B0BXTFCCZZ",
+          "category": "Outdoor, Patio & Garden",
+          "priceRange": "$80–$300",
+          "commission": "~3%",
+          "useCases": [
+            "Backyard gatherings",
+            "Camping trips",
+            "Smokeless ambience"
+          ],
+          "pinterestTitle": "Backyard Fire Pit for Cozy Nights",
+          "pinterestDescription": "Magic Campfire Fire Color Changing Packets for Fire Pit (10 Pack) Outdoor Fireplaces & Bonfires, Rainbow Colored Flames - Per: smokeless flames and easy setup for patio or camping. #firepit #patio #outdoor",
+          "link": "https://www.amazon.com/dp/B0BXTFCCZZ?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "cattree-artificial-dandelion-flowers-plastic-plants-shrubs-b",
+          "title": "CATTREE Artificial Dandelion Flowers, Plastic Plants Shrubs Bushes Fake Grass Wedding Indoor Outdoor Home Garden Arrangements",
+          "asin": "B089ZYZT98",
+          "category": "Outdoor, Patio & Garden",
+          "priceRange": "$20–$80",
+          "commission": "~3%",
+          "useCases": [
+            "No-maintenance decor",
+            "Outdoor curb appeal",
+            "Year-round greenery"
+          ],
+          "pinterestTitle": "No-Maintenance Greenery for Home or Patio",
+          "pinterestDescription": "CATTREE Artificial Dandelion Flowers, Plastic Plants Shrubs Bushes Fake Grass Wedding Indoor Outdoor Home Garden Arrangements: looks real, lasts forever, zero watering. #homedecor #patio",
+          "link": "https://www.amazon.com/dp/B089ZYZT98?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "uisjl-22-inch-artificial-flower-stake-outdoor-decor-multi-co",
+          "title": "UISJL 22 Inch Artificial Flower Stake Outdoor Decor - Multi-Color Garden Stakes for Yard & Lawn, No Fade Heavy Duty Plastic,",
+          "asin": "B0G6KS3SV9",
+          "category": "Outdoor, Patio & Garden",
+          "priceRange": "$20–$80",
+          "commission": "~3%",
+          "useCases": [
+            "No-maintenance decor",
+            "Outdoor curb appeal",
+            "Year-round greenery"
+          ],
+          "pinterestTitle": "No-Maintenance Greenery for Home or Patio",
+          "pinterestDescription": "UISJL 22 Inch Artificial Flower Stake Outdoor Decor - Multi-Color Garden Stakes for Yard & Lawn, No Fade Heavy Duty Plastic,: looks real, lasts forever, zero watering. #homedecor #patio",
+          "link": "https://www.amazon.com/dp/B0G6KS3SV9?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        }
+      ]
+    },
+    {
+      "name": "Travel Gear",
+      "description": "Curated Travel Gear picks.",
+      "products": [
+        {
+          "id": "jansport-laptop-backpack-computer-bag-with-2-compartments-er",
+          "title": "JanSport Laptop Backpack - Computer Bag with 2 Compartments, Ergonomic Shoulder Straps, 15” Laptop Sleeve, Haul Handle - Blac",
+          "asin": "B07K74LDCH",
+          "category": "Travel Gear",
+          "priceRange": "$50–$180",
+          "commission": "~3%",
+          "useCases": [
+            "Carry-on travel",
+            "Organized packing",
+            "Daily commute"
+          ],
+          "pinterestTitle": "Travel Bag That Makes Packing Easier",
+          "pinterestDescription": "JanSport Laptop Backpack - Computer Bag with 2 Compartments, Ergonomic Shoulder Straps, 15” Laptop Sleeve, Haul Handle - Blac: organized compartments and travel-ready durability. #travel #luggage",
+          "link": "https://www.amazon.com/dp/B07K74LDCH?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "taygeer-travel-backpack-for-women-tsa-carry-on-backpack-flig",
+          "title": "Taygeer Travel Backpack for Women, TSA Carry On Backpack Flight Approved | 15.6inch Laptop Mochila with Water Bottle Pocket &",
+          "asin": "B09MQWWP87",
+          "category": "Travel Gear",
+          "priceRange": "$50–$180",
+          "commission": "~3%",
+          "useCases": [
+            "Carry-on travel",
+            "Organized packing",
+            "Daily commute"
+          ],
+          "pinterestTitle": "Travel Bag That Makes Packing Easier",
+          "pinterestDescription": "Taygeer Travel Backpack for Women, TSA Carry On Backpack Flight Approved | 15.6inch Laptop Mochila with Water Bottle Pocket &: organized compartments and travel-ready durability. #travel #luggage",
+          "link": "https://www.amazon.com/dp/B09MQWWP87?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "tessan-2-pack-european-travel-plug-adapter-europe-power-conv",
+          "title": "TESSAN 2 Pack European Travel Plug Adapter, Europe Power Converter 4 Outlets 3 USB(1 USB C PD 20W), Type C International Adap",
+          "asin": "B0B27HX6P7",
+          "category": "Travel Gear",
+          "priceRange": "$30–$100",
+          "commission": "~3%",
+          "useCases": [
+            "Everyday convenience",
+            "Top-rated by buyers",
+            "Worth the upgrade"
+          ],
+          "pinterestTitle": "Top-Rated Amazon Pick Worth Buying",
+          "pinterestDescription": "TESSAN 2 Pack European Travel Plug Adapter, Europe Power Converter 4 Outlets 3 USB(1 USB C PD 20W), Type C International Adap: highly rated and practical for everyday use. #amazonfinds",
+          "link": "https://www.amazon.com/dp/B0B27HX6P7?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        },
+        {
+          "id": "travel-inspira-luggage-scale-portable-digital-hanging-baggag",
+          "title": "travel inspira Luggage Scale, Portable Digital Hanging Baggage Scale for Travel, Suitcase Weight Scale with Rubber Paint, 110",
+          "asin": "B07QFTGGYF",
+          "category": "Travel Gear",
+          "priceRange": "$50–$180",
+          "commission": "~3%",
+          "useCases": [
+            "Carry-on travel",
+            "Organized packing",
+            "Daily commute"
+          ],
+          "pinterestTitle": "Travel Bag That Makes Packing Easier",
+          "pinterestDescription": "travel inspira Luggage Scale, Portable Digital Hanging Baggage Scale for Travel, Suitcase Weight Scale with Rubber Paint, 110: organized compartments and travel-ready durability. #travel #luggage",
+          "link": "https://www.amazon.com/dp/B07QFTGGYF?tag=porfirioinc-20&linkCode=ll2&language=en_US&ref_=as_li_ss_tl"
+        }
+      ]
     }
   ],
   "strategy": {
@@ -783,7 +1207,11 @@
       "Beauty & Personal Grooming",
       "Fitness & Outdoor",
       "Automotive",
-      "Sleep & Bedding"
+      "Sleep & Bedding",
+      "Tools & Home Improvement",
+      "Everyday Carry & Safety",
+      "Outdoor, Patio & Garden",
+      "Travel Gear"
     ],
     "disclosure": "Affiliate link — I may earn a commission at no extra cost to you."
   }
