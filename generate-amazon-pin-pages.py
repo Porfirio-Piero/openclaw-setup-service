@@ -147,7 +147,7 @@ def build_pin_page(product, cat_name, all_prods):
             <ul>{use_cases}</ul>
           </div>
           <div class="cta">
-            <a class="btn btn-primary" href="{product['link']}" target="_blank" rel="noopener sponsored">Check Price on Amazon</a>
+            <a class="btn btn-primary" href="{product['link']}" target="_blank" rel="noopener sponsored" data-amazon-link data-asin="{html.escape(product['asin'])}" data-placement="product-primary">Check Price on Amazon</a>
             <a class="btn btn-secondary" href="index.html">Browse more picks</a>
           </div>
           <p class="disclosure">{disclosure}<br>As an Amazon Associate I earn from qualifying purchases.</p>
@@ -158,9 +158,10 @@ def build_pin_page(product, cat_name, all_prods):
   </main>
   <footer>
     <div class="container">
-      <p>Affiliate links — I may earn a commission at no extra cost to you. · <a href="../index.html">OpenClaw Setup Service</a></p>
+      <p>Affiliate links — I may earn a commission at no extra cost to you. As an Amazon Associate I earn from qualifying purchases. · <a href="../index.html">OpenClaw Setup Service</a></p>
     </div>
   </footer>
+  <script src="funnel-analytics.js" defer></script>
 </body>
 </html>
 '''
@@ -194,7 +195,7 @@ for p in all_products:
         <p>{html.escape(p['pinterestDescription'])}</p>
         <div class="card-price">{html.escape(p.get('priceRange',''))}</div>
         <div class="card-actions">
-          <a class="btn btn-sm btn-primary" href="{p['link']}" target="_blank" rel="noopener sponsored">Shop Amazon</a>
+          <a class="btn btn-sm btn-primary" href="{p['link']}" target="_blank" rel="noopener sponsored" data-amazon-link data-asin="{html.escape(p['asin'])}" data-placement="storefront-card">Shop Amazon</a>
           <a class="btn btn-sm btn-secondary" href="{slug}.html">View Pin →</a>
         </div>
       </div>
@@ -293,7 +294,7 @@ index = f'''<!DOCTYPE html>
   </div>
   <footer>
     <div class="container">
-      <p>Affiliate links — I may earn a commission at no extra cost to you. · <a href="../index.html">OpenClaw Setup Service</a></p>
+      <p>Affiliate links — I may earn a commission at no extra cost to you. As an Amazon Associate I earn from qualifying purchases. · <a href="../index.html">OpenClaw Setup Service</a></p>
     </div>
   </footer>
   <script>
@@ -331,6 +332,7 @@ index = f'''<!DOCTYPE html>
       if (target) target.click();
     }}
   </script>
+  <script src="funnel-analytics.js" defer></script>
 </body>
 </html>
 '''
