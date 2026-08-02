@@ -4,6 +4,7 @@ from html import escape
 ROOT = r'C:\Users\devpi\.openclaw\workspace\openclaw-gumroad-landing\gut-garden'
 JSON_PATH = r'C:\Users\devpi\.openclaw\workspace\gut-garden-content-27.json'
 DISCLOSURE = "As an Amazon Associate I earn from qualifying purchases."
+BASE_URL = "https://porfirio-piero.github.io/openclaw-setup-service/gut-garden"
 
 os.makedirs(ROOT, exist_ok=True)
 os.makedirs(os.path.join(ROOT, 'recipes'), exist_ok=True)
@@ -43,6 +44,10 @@ def recipe_page(r):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title} | Gut Garden</title>
 <meta name="description" content="{escape(r.get('safety_note', title))}">
+<meta property="og:image" content="{BASE_URL}/pins/{slug}.jpg">
+<meta property="og:title" content="{title}">
+<meta property="og:description" content="{escape(r.get('safety_note', title))}">
+<meta property="og:url" content="{BASE_URL}/recipes/{slug}.html">
 <style>
 :root{{--sage:#8a9a5b;--ginger:#c68e3f;--cream:#f7f5f0;--char:#2f2f2f;}}
 body{{font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--cream);color:var(--char);line-height:1.6;max-width:720px;margin:0 auto;padding:20px;}}
@@ -101,6 +106,10 @@ def hub_page():
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Gut Garden | 27 Fermentation Recipes</title>
 <meta name="description" content="Easy, real-food fermentation recipes with safety notes, source links, and matched Amazon gear. As an Amazon Associate I earn from qualifying purchases.">
+<meta property="og:image" content="{BASE_URL}/pins/plain-sauerkraut.jpg">
+<meta property="og:title" content="Gut Garden | 27 Fermentation Recipes">
+<meta property="og:description" content="Easy, real-food fermentation recipes with safety notes, source links, and matched Amazon gear.">
+<meta property="og:url" content="{BASE_URL}/">
 <style>
 :root{{--sage:#8a9a5b;--ginger:#c68e3f;--cream:#f7f5f0;--char:#2f2f2f;}}
 body{{font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--cream);color:var(--char);line-height:1.6;max-width:960px;margin:0 auto;padding:20px;}}
@@ -139,4 +148,3 @@ with open(os.path.join(ROOT, 'index.html'), 'w', encoding='utf-8-sig') as f:
     f.write(hub_page())
 
 print(f"Wrote {len(recipes)} recipe pages + hub to {ROOT}")
-
