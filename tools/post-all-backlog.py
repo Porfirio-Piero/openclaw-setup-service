@@ -22,6 +22,9 @@ PINS = [
     ("the-ladys-mine-audible.jpg", "the-ladys-mine-audible.html", "The Lady's Mine on Audible", "Francine Rivers delivers a heartwarming tale of love, faith, and choosing your heart. Listen free. #ad #affiliate #audible #christianfiction #romance"),
     ("meet-me-in-paris-audible.jpg", "meet-me-in-paris-audible.html", "Meet Me in Paris on Audible", "Kristin Harmel's unforgettable journey of love, hope, and second chances in Paris. Listen free. #ad #affiliate #audible #meetmeinparis #historicalfiction"),
     ("woman-down-audible.jpg", "woman-down-audible.html", "Woman Down on Audible", "Colleen Hoover's gripping psychological thriller. Her life fell apart. Then came the truth. Listen free. #ad #affiliate #audible #colleenhoover #thriller"),
+    ("yesteryear-audible.jpg", "yesteryear-audible.html", "Yesteryear on Audible", "What if you woke up in 1855? A time-slip romance you won't forget. Listen free with Audible. #ad #affiliate #audible #timetravel #romance"),
+    ("it-ends-with-us-audible.jpg", "it-ends-with-us-audible.html", "It Ends with Us on Audible", "Colleen Hoover's unforgettable story of healing, hope, and happiness. Listen free with Audible. #ad #affiliate #audible #colleenhoover #booktok"),
+    ("the-notebook-audible.jpg", "the-notebook-audible.html", "The Notebook on Audible", "Nicholas Sparks' timeless love story. True love. Second chances. Listen free with Audible. #ad #affiliate #audible #nicholassparks #romance"),
 ]
 
 RESULTS_FILE = os.path.join(ROOT, 'posted-all-backlog-result.json')
