@@ -39,6 +39,13 @@ PINS = [
         "desc": "The right vibe makes every chapter better. Start your free Audible trial. #ad #affiliate #audible #audiobooks #cozy #booklover",
         "link": "https://porfirio-piero.github.io/openclaw-setup-service/audible-cozy-read-6.html",
         "board": "Audible Listens & Cozy Headphone Picks"
+    },
+    {
+        "img": Path(ROOT) / "audible-cozy-read-7.jpg",
+        "title": "Cozy Audiobook Retreat",
+        "desc": "Create your own retreat with a great story. Start listening free with Audible. #ad #affiliate #audible #audiobooks #cozy #retreat",
+        "link": "https://porfirio-piero.github.io/openclaw-setup-service/audible-cozy-read-7.html",
+        "board": "Audible Listens & Cozy Headphone Picks"
     }
 ]
 
