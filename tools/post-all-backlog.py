@@ -1,4 +1,4 @@
-import asyncio, json, os, time
+import asyncio, json, os
 from pathlib import Path
 from playwright.async_api import async_playwright
 
@@ -18,6 +18,10 @@ PINS = [
     ("evelyn-hugo-audible-3.jpg", "evelyn-hugo-audible-3.html", "Evelyn Hugo Audiobook Vibes", "Old Hollywood glamour meets unforgettable audio. Try Audible free. #ad #affiliate #audible #evelynhugo #bookstagram"),
     ("evelyn-hugo-audible-4.jpg", "evelyn-hugo-audible-4.html", "Evelyn Hugo Free Audiobook Trial", "Seven marriages. One truth. Listen to The Seven Husbands of Evelyn Hugo free. #ad #affiliate #audible #evelynhugo"),
     ("evelyn-hugo-audible-5.jpg", "evelyn-hugo-audible-5.html", "Evelyn Hugo on Audible", "The perfect audiobook for your next cozy night in. Start free. #ad #affiliate #audible #evelynhugo #cozy"),
+    ("the-alchemist-audible.jpg", "the-alchemist-audible.html", "The Alchemist on Audible", "A timeless story that inspires millions to live with purpose. Start listening free with Audible. #ad #affiliate #audible #thealchemist #booktok"),
+    ("the-ladys-mine-audible.jpg", "the-ladys-mine-audible.html", "The Lady's Mine on Audible", "Francine Rivers delivers a heartwarming tale of love, faith, and choosing your heart. Listen free. #ad #affiliate #audible #christianfiction #romance"),
+    ("meet-me-in-paris-audible.jpg", "meet-me-in-paris-audible.html", "Meet Me in Paris on Audible", "Kristin Harmel's unforgettable journey of love, hope, and second chances in Paris. Listen free. #ad #affiliate #audible #meetmeinparis #historicalfiction"),
+    ("woman-down-audible.jpg", "woman-down-audible.html", "Woman Down on Audible", "Colleen Hoover's gripping psychological thriller. Her life fell apart. Then came the truth. Listen free. #ad #affiliate #audible #colleenhoover #thriller"),
 ]
 
 RESULTS_FILE = os.path.join(ROOT, 'posted-all-backlog-result.json')
